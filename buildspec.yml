@@ -24,7 +24,7 @@ phases:
 
       - "docker build -t ctgdevops-rekha   . "
 
-      - "docker tag ctgdevops-rekha:latest 543816070942.dkr.ecr.us-east-1.amazonaws.com/ctgdevops-rekha:v3.1.2"
+      - "docker tag ctgdevops-rekha:v3.1.2 543816070942.dkr.ecr.us-east-1.amazonaws.com/ctgdevops-rekha:v3.1.2"
 
  post_build:
 
